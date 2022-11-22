@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+section{
+    border: solid;
+    border-width: 5px;
+    border-color: blue
+}
+
+footer{
+    background-color: darkcyan;
+}
+
+img {
+    size: 15px;
+}
+
+header>nav>ul{
+    list-style: circle;
+}
+header>nav>ul>li{
+    display: inline;
+}

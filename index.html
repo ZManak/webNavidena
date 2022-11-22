@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Navideña</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
+
 <body>
     <header>
+        <img src="./assets/logo.png" alt="Logo de Navidad" id="logo">
       <nav> <!--ul>(li>a)*3-->
           <ul>
-            <li><a href="https://google.com"></a>Home</li>
-            <li><a href="#footer"></a>About</li>
-            <li><a href=""></a>Contact</li>
+            <li><a href="#origen"></a>Todo lo que necesitas saber</li>
+            <li><a href="#opiniones"></a>Opiniones</li>
+            <li><a href="#comidas"></a>Comidas</li>
           </ul>
       </nav>
       <h1>La Web Navideña del año</h1>
@@ -20,25 +23,81 @@
     </header>
 
     <main>
-    <h2>El origen de las fiestas</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae harum vero a libero porro. Numquam, sit? Repudiandae magni alias repellendus sequi dolorem expedita architecto quibusdam quo, minima ad. Unde.</p>
-    
-    <h2>Mi carta a los Reyes Magos</h2>
-      <ul>
-        <li>Un cañón de plasma</li>
-        <li>Un monopatín volador</li>
-        <li>La colección de cromos de la liga del 97</li>
-      </ul>
-    <h2>Las mejores recetas</h2>
-      <ol>
-        <li>El pannetone</li>
-        <li>El turrón</li>
-      </ol>
+        <h3>Todo lo que necesitas saber</h3>
+        <section id="origen">
+            <article>
+            <h4>El origen de las fiestas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae harum vero a libero porro. Numquam, sit? Repudiandae magni alias repellendus sequi dolorem expedita architecto quibusdam quo, minima ad. Unde.</p>
+            </article>
+        
+            <article>    
+            <h4>Eventos navideños de interés</h4>
+            <ul>
+                <li>Cortilandia</li>
+                <li>El mercado de Navidad de Munich</li>
+                <li>El concierto de Año Nuevo de la orquesta filarmónica de Viena</li>
+            </ul> 
+            </article>
+        </section>
+
+        <section id="opiniones">
+            <h3>Opiniones</h3>
+
+            <article>
+                <h4>La mejor bebida de la navidad es el vino caliente</h4>
+                <blockquote>
+                    El vino caliente tiene su origen en la Europa del este y el Asia oriental.
+                </blockquote>
+            </article>
+
+            <article>
+                <h4>¡Hay que joderse con los petardos!</h4>
+                <blockquote>
+                    Las Navidades son un infierno para mi perro. Los animales con una capacidad auditiva súperdesarrollada sufren innecesariamente.
+                </blockquote>
+            </article>
+        </section>
+
+        <section id="regalos">
+            <h3>Mi carta a los Reyes Magos</h3>
+            <ul>
+                <li>Un cañón de plasma</li>
+               <li>Un monopatín volador</li>
+                <li>La colección de cromos de la liga del 97</li>
+            </ul>
+        </section>
+
+        <section id="comidas">
+            <h3>Comidas típicas de cada país</h3>
+            <table>
+                <tr>
+                    <th>País</th>
+                    <th>Receta</th>
+                    <th>Puntuación</th>
+                </tr>
+                <tr>
+                    <th>Rusia</th>
+                    <th>Esturión en salsa agria</th>
+                    <th>7</th>
+                </tr>
+                <tr>
+                    <th>Islandia</th>
+                    <th>Tiburón fermentado</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>París</th>
+                    <th>Caracoles a la parisien</th>
+                    <th>8</th>
+                </tr>
+            </table>
+        </section>
     </main>
 
     <footer>
-        <h4>Más sobre el autor</h4>
+        <h2>Más sobre el autor</h2>
         <p>Amante de los escarabajos, astrónomo amateur</p>
     </footer>
 </body>
+
 </html>
