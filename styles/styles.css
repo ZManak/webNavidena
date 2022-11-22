@@ -20,12 +20,12 @@ footer{
     background-color: darkcyan;
 }
 
-img {
-    size: 15px;
+#logo {
+    width: 50px;
 }
 
 header>nav>ul{
-    list-style: circle;
+    list-style-type: circle;
 }
 header>nav>ul>li{
     display: inline;
