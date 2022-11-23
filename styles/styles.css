@@ -1,39 +1,76 @@
-h1 {
-    text-align: center;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    text-align: center;
+h1, h2 {
+    color: darkred;
+}
+
+header{
+    background-color: darkgreen;
+    padding-bottom: 10px;
+}
+
+a{
+    padding-left: 5px;
+    padding-right: 5px;
+    color:red;
+    font-size: 20px;
+    text-decoration: ;
+}
+
+a:hover{
+    background-color: blue;
+    color: wheat;
 }
 
 body {
-    background-color: cornflowerblue;
+    margin: 0px;
+    background-color: rgb(88, 194, 102);
 }
 
 section{
-    border-spacing: 5px;
-    padding: 2px;
-    border-collapse: collapse;
-    border: solid;
+    margin: 10px;
+    padding: 0px 10px 10px;
+    border: dotted;
     border-width: 2px;
-    border-color: blue
+    border-color:darkred;
+    tex
+}
+
+p{
+    text-align: justify;
 }
 
 footer{
-    background-color: darkcyan;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    margin: 0ch;
+    padding: 10px;
+    border-color: rgb(139, 9, 0);
+    background-color: darkgreen;
+    font-weight: bold;
 }
 
 #logo {
+    justify-items:center;
     width: 50px;
 }
 
 header>nav>ul{
-    list-style-type: circle;
+    margin: 0px;
+    padding: 0px;
 }
+
 header>nav>ul>li{
     display: inline-block;
+    list-style-type: circle;
 }
 
 #submit{
     padding: 2px;
+}
+
+.center {
+    text-align: center;
 }
