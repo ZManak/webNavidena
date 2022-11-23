@@ -11,8 +11,11 @@ body {
 }
 
 section{
+    border-spacing: 5px;
+    padding: 2px;
+    border-collapse: collapse;
     border: solid;
-    border-width: 5px;
+    border-width: 2px;
     border-color: blue
 }
 
@@ -29,4 +32,8 @@ header>nav>ul{
 }
 header>nav>ul>li{
     display: inline-block;
+}
+
+#submit{
+    padding: 2px;
 }
