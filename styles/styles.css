@@ -16,12 +16,12 @@ a{
     padding-right: 5px;
     color:red;
     font-size: 20px;
-    text-decoration: ;
+
 }
 
 a:hover{
     background-color: blue;
-    color: wheat;
+    color:aliceblue;
 }
 
 body {
@@ -35,7 +35,7 @@ section{
     border: dotted;
     border-width: 2px;
     border-color:darkred;
-    tex
+    
 }
 
 p{
