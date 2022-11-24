@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Navideña</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <header class="center">
+        <img src="../assets/logo.png" alt="Logo de Navidad" id="logo">
+      <nav class="center"> <!--ul>(li>a)*3-->
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+          </ul>
+      </nav>
+      <h1 class="center">La Web Navideña del año</h1>
+      <h2 class="center">Una compilación de eclécticos contenidos navideños</h2>
+    </header>
+
+    <main>
+        <h3 class="center">Todo lo que necesitas saber</h3>
+        <section id="origen">
+            <article>
+            <h4 class="center">El origen de las fiestas</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae harum vero a libero porro. Numquam, sit? Repudiandae magni alias repellendus sequi dolorem expedita architecto quibusdam quo, minima ad. Unde.</p>
+            </article>
+        
+            <article>    
+            <h4 class="center">Eventos navideños de interés</h4>
+            <ul>
+                <li>Cortilandia</li>
+                <li>El mercado de Navidad de Munich</li>
+                <li>El concierto de Año Nuevo de la orquesta filarmónica de Viena</li>
+            </ul> 
+            </article>
+        </section>
+
+        <section class="center" id="opiniones">
+            <h3>Opiniones</h3>
+
+            <article>
+                <h4>La mejor bebida de la navidad es el vino caliente</h4>
+                <blockquote>
+                    El vino caliente tiene su origen en la Europa del este y el Asia oriental.
+                </blockquote>
+            </article>
+
+            <article>
+                <h4>¡Hay que joderse con los petardos!</h4>
+                <blockquote>
+                    Las Navidades son un infierno para mi perro. Los animales con una capacidad auditiva súperdesarrollada sufren innecesariamente.
+                </blockquote>
+            </article>
+        </section>
+
+        <section id="regalos">
+            <h3 class="center">Mi carta a los Reyes Magos</h3>
+            <ul>
+                <li>Un cañón de plasma</li>
+               <li>Un monopatín volador</li>
+                <li>La colección de cromos de la liga del 97</li>
+            </ul>
+        </section>
+
+        <section id="comidas">
+            <h3 class="center">Comidas típicas de cada país</h3>
+            <table>
+                <tr>
+                    <th>País</th>
+                    <th>Receta</th>
+                    <th>Puntuación</th>
+                </tr>
+                <tr>
+                    <th>Rusia</th>
+                    <th>Esturión en salsa agria</th>
+                    <th>7</th>
+                </tr>
+                <tr>
+                    <th>Islandia</th>
+                    <th>Tiburón fermentado</th>
+                    <th>0</th>
+                </tr>
+                <tr>
+                    <th>París</th>
+                    <th>Caracoles a la parisien</th>
+                    <th>8</th>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2 class="center">Contacto</h2>
+            <form action="/action_page.php" target="_blank" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" value="tu nombre"><br>
+               
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" value="tu correo"><br><br>
+               
+                <textarea id="mensaje" name="mensaje" rows="5" cols="45" placeholder="Dinos qué piensas"></textarea><br>
+               
+                <label for="fav_thing">Tus favoritos del invierno:</label><br>
+                <input type="radio" id="comer" name="fav_thing" value="comer">
+                <label for="comer">Comer</label><br>
+                <input type="radio" id="regalos" name="fav_thing" value="regalos">
+                <label for="regalos">Regalos</label><br>
+                <input type="radio" id="frio" name="fav_thing" value="frio">
+                <label for="frio">Frío</label><br>
+
+                <label for="sitios">Tu lugar favorito estas fiestas:</label><br>
+                <select name="sitios" id="sitios"> <!--size="4" multiple: multiples opciones y tamaño 4 valores antes de scroll -->
+                    <option value="atlantis">Atlantis</option>
+                    <option value="laponia">Laponia</option>
+                    <option value="alaska">Alaska</option>
+                    <option value="canarias">Las Islas Canarias</option>
+                </select><br>
+
+                <label for="condiciones">Acepto condiciones de uso</label>
+                <input type="checkbox" name="condiciones" id="condiciones" value="si" required><br>
+
+                <input id="submit" type="submit" value="Submit"><br>
+            </form>
+            <section>
+                <h4>Localización</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.428476712232!2d-3.6948599850574544!3d40.42151017936458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229dd28bc4f6b%3A0x1b818ff2f527183b!2sThe%20Bridge%20%7C%20Digital%20Talent%20Accelerator!5e0!3m2!1sen!2ses!4v1669197338998!5m2!1sen!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+              
+        </section>
+    </main>
+
+    <footer class="center">
+        <h2>Más sobre el autor</h2>
+        <p class="center">Amante de los escarabajos, astrónomo amateur</p>
+    </footer>
+</body>
+
+</html>
